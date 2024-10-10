@@ -1,0 +1,40 @@
+@import "src/scss/vars";
+
+.tableHeader {
+  .firstTitle {
+    color: $lightGrayTitle;
+
+  }
+
+  color: $lightGrayTableTitle;
+
+  td {
+    &:first-child {
+      div {
+        padding: 9px 0 17px 41px;
+      }
+    }
+
+  }
+}
+
+.table {
+  border: 2px solid $white;
+  border-radius: 20px;
+  background-color: $white;
+  width: 100%;
+  overflow: hidden;
+
+
+  tr {
+    &:first-child {
+      td {
+        border-bottom: 1px solid $TableRowBorder;
+      }
+    }
+
+    width: 100%;
+    border-collapse: separate;
+
+  }
+}

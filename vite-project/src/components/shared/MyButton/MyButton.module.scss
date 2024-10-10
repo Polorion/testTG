@@ -1,0 +1,14 @@
+@import "src/scss/vars";
+
+.body {
+  padding: 10px 27px;
+  background-color: $grayFon;
+  border-radius: 10px;
+  overflow: hidden;
+  color: $black;
+}
+
+.active {
+  background-color: $black;
+  color: $white;
+}

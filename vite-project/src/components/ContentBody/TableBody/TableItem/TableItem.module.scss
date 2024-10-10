@@ -1,0 +1,42 @@
+@import "src/scss/vars";
+
+.row {
+  color: $black;
+
+
+  td {
+    &:not(:first-child) {
+      border-top: 1px solid $TableRowBorder;
+
+    }
+  }
+
+  .owner {
+    div {
+      display: flex;
+    }
+
+
+    img {
+      margin-right: 14px;
+      object-fit: contain;
+      padding: 10px 0 10px 41px;
+    }
+
+    .name {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      border-top: 1px solid $TableRowBorder;
+      font-weight: 500;
+
+    }
+  }
+
+}
+
+.none {
+  .name {
+    border-top: none !important;
+  }
+}
